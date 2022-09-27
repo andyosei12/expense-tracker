@@ -1,5 +1,11 @@
+import Login from "./routes/Login";
+
 const App = () => {
-  return <div>Creating something awesome</div>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 };
 
 export default App;
